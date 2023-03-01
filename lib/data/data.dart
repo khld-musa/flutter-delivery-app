@@ -1,5 +1,3 @@
-
-
 // Food
 import 'package:food_delivery/models/food.dart';
 import 'package:food_delivery/models/order.dart';
@@ -27,35 +25,35 @@ final _salmon = Food(
 final _restaurant0 = Restaurant(
   imageUrl: 'assets/images/restaurant0.jpg',
   name: 'Restaurant 0',
-  address: '200 Main St, New York, NY',
+  address: 'khartoum, sudan',
   rating: 5,
   menu: [_burrito, _steak, _pasta, _ramen, _pancakes, _burger, _pizza, _salmon],
 );
 final _restaurant1 = Restaurant(
   imageUrl: 'assets/images/restaurant1.jpg',
   name: 'Restaurant 1',
-  address: '200 Main St, New York, NY',
+  address: 'khartoum, sudan',
   rating: 4,
   menu: [_steak, _pasta, _ramen, _pancakes, _burger, _pizza],
 );
 final _restaurant2 = Restaurant(
   imageUrl: 'assets/images/restaurant2.jpg',
   name: 'Restaurant 2',
-  address: '200 Main St, New York, NY',
+  address: 'khartoum, sudan',
   rating: 4,
   menu: [_steak, _pasta, _pancakes, _burger, _pizza, _salmon],
 );
 final _restaurant3 = Restaurant(
   imageUrl: 'assets/images/restaurant3.jpg',
   name: 'Restaurant 3',
-  address: '200 Main St, New York, NY',
+  address: 'khartoum, sudan',
   rating: 2,
   menu: [_burrito, _steak, _burger, _pizza, _salmon],
 );
 final _restaurant4 = Restaurant(
   imageUrl: 'assets/images/restaurant4.jpg',
   name: 'Restaurant 4',
-  address: '200 Main St, New York, NY',
+  address: 'khartoum, sudan',
   rating: 3,
   menu: [_burrito, _ramen, _pancakes, _salmon],
 );
@@ -70,34 +68,34 @@ final List<Restaurant> restaurants = [
 
 // User
 final currentUser = User(
-  name: 'Rebecca',
+  name: 'khalid',
   orders: [
     Order(
-      date: 'Nov 10, 2019',
+      date: 'Jan 10, 2023',
       food: _steak,
       restaurant: _restaurant2,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 8, 2019',
+      date: 'Jan 8, 2023',
       food: _ramen,
       restaurant: _restaurant0,
       quantity: 3,
     ),
     Order(
-      date: 'Nov 5, 2019',
+      date: 'Jan 5, 2023',
       food: _burrito,
       restaurant: _restaurant1,
       quantity: 2,
     ),
     Order(
-      date: 'Nov 2, 2019',
+      date: 'Jan 2, 2023',
       food: _salmon,
       restaurant: _restaurant3,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 1, 2019',
+      date: 'Jan 1, 2023',
       food: _pancakes,
       restaurant: _restaurant4,
       quantity: 1,
@@ -105,34 +103,38 @@ final currentUser = User(
   ],
   cart: [
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Jan 11, 2023',
       food: _burger,
       restaurant: _restaurant2,
       quantity: 2,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Jan 11, 2023',
       food: _pasta,
       restaurant: _restaurant2,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Jan 11, 2023',
       food: _salmon,
       restaurant: _restaurant3,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Jan 11, 2023',
       food: _pancakes,
       restaurant: _restaurant4,
       quantity: 3,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Jan 11, 2023',
       food: _burrito,
       restaurant: _restaurant1,
       quantity: 2,
     ),
   ],
+  about:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  email: 'khalidmusa249@gmail.com',
+  imagePath: 'assets/images/restaurant4.jpg',
 );
